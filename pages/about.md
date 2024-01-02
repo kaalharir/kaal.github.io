@@ -29,7 +29,8 @@ In essence, my journey reflects a commitment to the multifaceted world of softwa
 <br/>
 
 <p class="text-center"> 
-{% include elements/button_nt.html link="J:/project_2/shortreact/my_portfolio/sample/Portfolio/portfolYOU/CV_KaalHarir.pdf" text="View My CV" style="primary" %}
+<!-- {% include elements/button_nt.html link="." text="View My CV" style="primary" %} -->
+{% include elements/button_nt.html link="/CV.pdf" text="View My CV" style="primary" %}
 <!-- {% include elements/button_nt.html link="https://scholar.google.com/citations?user=jmjN3k8AAAAJ&hl=en" text="Google Scholar" style="primary" %} -->
 {% include elements/button_nt.html link="https://github.com/kaalharir" text="GitHub" style="primary" %}
 {% include elements/button_nt.html link="https://www.linkedin.com/in/kaal-harir-9443471a6/" text="LinkedIn" style="primary" %}

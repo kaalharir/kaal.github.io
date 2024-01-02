@@ -1,27 +1,15 @@
-<!-- 
-<div class="card-columns m-3 mt-5" style="width: 70rem;"></div> -->
-<div class="card-columns m-3 mt-5" style="width: 70rem;">
-
-    <!-- Local Projects -->
-    {% for project in site.acts %}
-  
-      {%- assign project_type  = "local" -%}
-      {%- assign project_id    = project.name | slugify -%}
-      {%- assign project_img   = project.image -%}
-      {%- assign project_name  = project.name -%}
-      {%- assign project_desc  = project.description -%}
-      {%- assign project_tools = project.tools -%}
-  
-      {%- if project.external_url -%}
-        {%- assign project_url = project.external_url -%}
-      {%- else -%}
-        {%- assign project_url = project.url | relative_url -%}
-      {%- endif -%}
-  
-      {% include acts/act-card.html %}
-  
+<div class="col mt-4">
+  <div class="timeline-body bg-themed">
+    {% for item in site.data.education_timeline %}
+      <div class="timeline-item">
+        <div class="content">
+          <h2>{{ item.title }}</h2>
+          <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
+          <p>{{ item.description }}</p>
+        </div>
+      </div>
     {% endfor %}
-  
   </div>
-  
-  
+</div>
+
+

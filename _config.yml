@@ -20,11 +20,31 @@ nav_exclude: # The following paths are excluded from navbar
   - pages/index.md
   - pages/blog.md
   # - documentation/partials/**                           # For Documentation Only
+### Navbar Settings ###
+navbar:
+  - title: "About Me"
+    url: "pages/about/"
+    weight: 1
+  - title: "Education"
+    url: "pages/education/"
+    weight: 2
+  - title: "Work"
+    url: "pages/work/"
+    weight: 3
+  - title: "Research"
+    url: "pages/research/"
+    weight: 4
+  - title: "Projects"
+    url: "pages/projects/"
+    weight: 5
+  - title: "Activities & Awards"
+    url: "pages/acts/"
+    weight: 6
 
 ### Author Info ###
 author:
   name: Kaal Harir Abdulle
-  # image: "https://zahid58.github.io/images/Md%20Zahidul%20Islam_CSE_IUT.jpg"
+  image: "/images/Kaal Harir_TVE_IUT.jpg"
   # behance           : your_username
   # dribbble          : your_username
   email: kaalharir@iut-dhaka.edu

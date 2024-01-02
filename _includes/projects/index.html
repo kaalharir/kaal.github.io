@@ -1,5 +1,4 @@
-
-<div class="card-columns m-3 mt-5">
+<div class="card-columns m-3 mt-5" style="width: 70rem;">
 
   <!-- Remote Projects -->
   {% for remote_project in page.remote_projects %}
@@ -24,7 +23,6 @@
         {%- assign project_desc  = project.description -%}
         {%- assign project_url   = project.html_url -%}
         {%- assign project_tools = project.topics -%}
-        {%- assign external      = true -%}
 
         {% include projects/project-card.html %}
 
@@ -46,10 +44,8 @@
 
     {%- if project.external_url -%}
       {%- assign project_url = project.external_url -%}
-      {%- assign external    = true -%}
     {%- else -%}
       {%- assign project_url = project.url | relative_url -%}
-      {%- assign external    = false -%}
     {%- endif -%}
 
     {% include projects/project-card.html %}

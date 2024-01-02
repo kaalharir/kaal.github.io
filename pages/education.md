@@ -10,7 +10,8 @@ weight: 3
   <div class="card mb-11">
       <div class="row">
         <div class="col-md-4">
-        <img src="https://zahid58.github.io/images/work/usask.png" class="card-img" alt="USask logo">
+        <!-- image: "/images/Kaal Harir_TVE_IUT.jpg -->
+        <img src="/images/Independent_University,_Bangladesh_logo.png" class="card-img" alt="USask logo">
         </div>
         <div class="col-md-8">
           <div style="align:left;" class="card-body">
@@ -35,7 +36,7 @@ weight: 3
     <div class="card mb-11">
       <div class="row">
         <div class="col-md-4">
-        <img src="https://zahid58.github.io/images/work/usask.png" class="card-img" alt="USask logo">
+        <img src="/images/IUT.png" class="card-img" alt="USask logo">
         </div>
         <div class="col-md-8">
           <div style="align:left;" class="card-body">
@@ -60,7 +61,7 @@ weight: 3
   <div class="card mb-11">
       <div class="row">
         <div class="col-md-4">
-        <img src="https://zahid58.github.io/images/work/IUT.png" class="card-img" alt="IUT logo">
+        <img src="/images/IUT.png" class="card-img" alt="IUT logo">
         </div>
         <div class="col-md-8">
           <div style="align:left;" class="card-body">
@@ -72,6 +73,9 @@ weight: 3
             <span><i>Dhaka, Bangladesh</i></span>
             <span><i>Jan 2017 - March 2021</i></span>
             </left_right> 
+            <ul>
+                    <li><b>Supervisor</b> - Mr. Tareque Mohmud Chowdhury</li>
+            </ul> 
             </p>
             <p class="text-center"> {% include elements/button_nt.html link="https://www.iutoic-dhaka.edu/" text="IUT Website" %}</p>
           </small>
@@ -83,7 +87,7 @@ weight: 3
   <div class="card mb-11">
       <div class="row">
         <div class="col-md-4">
-        <img src="https://zahid58.github.io/images/work/CCC.png" class="card-img" alt="CCC logo">
+        <img src="/images/logo_amoud.PNG" class="card-img" alt="CCC logo">
         </div>
         <div class="col-md-8">
           <div style="align:left;" class="card-body">
